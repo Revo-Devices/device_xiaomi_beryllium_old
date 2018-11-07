@@ -1,2 +1,7 @@
 # Audio
 /system/etc/audio_platform_info.xml        u:object_r:vendor_configs_file:s0
+
+# Camera
+/system/lib/libmicamera\.ic\.so	u:object_r:vendor_file:s0
+/system/lib/hw/camera\.qcom\.so	u:object_r:vendor_file:s0
+/system/lib/hw/com\.qti\.chi\.override\.so u:object_r:vendor_file:s0
