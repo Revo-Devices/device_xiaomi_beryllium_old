@@ -2,7 +2,6 @@ on early-init
     setprop ro.vndk.version 27
 
 on init
-    mount none /system/etc/audio_platform_info.xml /vendor/etc/audio_platform_info.xml bind
     mount none /system/lib/libmicamera.ic.so /vendor/lib/libmicamera.ic.so bind
     mount none /system/lib/hw/camera.qcom.so /vendor/lib/hw/camera.qcom.so bind
     mount none /system/lib/hw/com.qti.chi.override.so /vendor/lib/hw/com.qti.chi.override.so bind

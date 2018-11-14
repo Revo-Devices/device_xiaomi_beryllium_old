@@ -33,9 +33,6 @@ TARGET_KERNEL_SOURCE := kernel/xiaomi/beryllium
 # Inherit from the proprietary version
 -include vendor/xiaomi/beryllium/BoardConfigVendor.mk
 
-# Sepolicy
-BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
-
 # Treble
 PRODUCT_EXTRA_VNDK_VERSIONS := 27
 DEVICE_FRAMEWORK_MANIFEST_FILE := $(DEVICE_PATH)/framework_manifest.xml
