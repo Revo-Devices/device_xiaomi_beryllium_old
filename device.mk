@@ -62,6 +62,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     qti-telephony-common
 
+# Prebuilt apps
+PRODUCT_PACKAGES += \
+   GoogleCamera
+
 # Camera libraries (TEMP: TIL MIUI PIE STABLE)
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/prebuilt/lib/libmicamera.ic.so:system/lib/libmicamera.ic.so \
