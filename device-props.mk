@@ -4,7 +4,23 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.camera.multicam.fpsmatch=TRUE \
     persist.vendor.camera.multicam.hwsync=TRUE \
     persist.vendor.camera.multicam.framesync=1 \
-    persist.vendor.camera.perfcapture=1
+    persist.vendor.camera.perfcapture=1\
+    persist.camera.HAL3.enabled=1 \
+    camera.HAL3.enabled=1 \
+    persist.camera.eis.enable=1 \
+    camera.eis.enable=1 \
+    persist.camera.is_mode=4 \
+    camera.is_mode=4 \
+    persist.camera.disable_zsl_mode=1 \
+    camera.disable_zsl_mode=1 \
+    persist.camera.gyro.android=4 \
+    camera.gyro.android=4 \
+    persist.camera.tof.direct=1 \
+    camera.tof.direct=1 \
+    persist.camera.tnr.preview=1 \
+    camera.tnr.preview=1 \
+    persist.camera.tnr.video=1 \
+    camera.tnr.video=1
 
 # Display
 PRODUCT_PROPERTY_OVERRIDES += \
