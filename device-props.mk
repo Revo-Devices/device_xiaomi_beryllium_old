@@ -29,7 +29,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.qcom.ad.hdr.calib.data=/vendor/etc/hdr_config.cfg \
     ro.qcom.ad.sensortype=2 \
     ro.qualcomm.cabl=0 \
-    ro.sf.lcd_density=480
+    ro.sf.lcd_density=440
 
 # Graphics
 PRODUCT_PROPERTY_OVERRIDES += \
